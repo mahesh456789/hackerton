@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="css/login.css">
+        <script>    
+            function validation()
+            {   var name=document.loginform.name.value;
+                var password=document.loginform.password.value;
+                if(name==null || name=="")
+                {
+                alert("USERNAME CAN'T BE BLANK");
+                    return false;
+                }
+                else if(password.length<6)
+                {
+                alert("PASSWORD GREATER THAN SIX DIGITS");
+                    return false;  
+                }
+            }
+        </script>
+       
+         <link
+         href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        </head>
+
+    <body>
+        <section>
+            
+            <div class="form-container">
+                <h1>Login Form</h1>
+                <form action="login.php" method="post">
+                <form name="loginform" action="page1cnfrm.html" onsubmit="return validation()">
+                    <div class="control">
+                        <label for="username">Name</label>
+                        <input type="text" name="username" class="name">
+                    </div>
+                    <div class="control">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" class="password">
+                    </div>
+                    <span><input type="checkbox">Remember me.</span>
+                    <div class="control">
+                        <input type="submit" name ="submit" value="Login">
+                    </div>
+                </form>
+                </form>
+                <div class="link">
+                  <a href="#">Forget password ?</a>
+                </div>
+                <div class="signup">
+                    <p>new user?<a class="sign" href="signup.html"> sign up</a></p>
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>

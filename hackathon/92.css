@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.row1{
+    border:solid 1px white;
+      height:1000px;
+      font-size:0px;
+      display: flex;
+      background-color: antiquewhite;
+  }
+  
+  .row2{
+    border:solid 1px white;
+      height:150px;
+      font-size:0px;
+      display: flex;
+      padding-top:20px ;
+      padding-left: 200px;
+    
+      text-align: center;
+  }
+  .row2 h1{
+    padding-top: 40px;
+  }
+  .body{
+    background-color:white;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+  }
+  .container{
+    max-width: 1160px;
+    margin: 0 auto;
+   
+  }
+  .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-list{
+    display: flex;
+    padding: 20px;
+    width: 25%;
+    
+    
+  }
+  .box{
+    background:darkorange;
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+  }
+  .box img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+  }
+    
+  .box h2{
+    font-size: 24px;
+    line-height: 46px;
+    color:black;
+    font-weight: 500;
+  text-align: center;
+    margin-bottom: 20px;
+  }
+  .box p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    
+  }
+  .box a{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 32px;
+    color:white;
+    letter-spacing: 1px;
+    width: 111px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: black;
+       
+    transition: background.4s ease-in;
+  }
+  .box a:hover{
+    background-color: #fbda43;
+    color: #000;
+    border: 2px solid #fbda43;
+  }
+  
+  .row3{
+  
+    border:solid 1px white;
+    height:500px;
+    font-size:0px;
+    display: flex;
+    position: relative;
+  }
+  .row4{
+    border:solid 1px white;
+    height:400px;
+    font-size:0px;
+    display: flex;
+    position: relative;
+  }
+  .text{
+          
+    height:500px;
+    width:1500px;
+    background: url(https://www.turito.com/in/blog/wp-content/uploads/2021/06/05_Why-is-Online-Learning-Important.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:18px;
+    
+    padding-right:800px;
+    padding-left: 25px;
+  }
+  .button{
+    position: absolute;
+    top:80%;
+    left:10%;
+    font-size: 15px;
+    padding-left: 80px;
+    transform: translate(-50%,-50%);
+  }
+  .b{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color:#000;
+    background: lightblue;
+  
+    text-decoration: none;
+    transition: 0.6s ease;
+  }
+  .b:hover{
+    background-color: yellow;
+    color: #000;
+  }
+ 

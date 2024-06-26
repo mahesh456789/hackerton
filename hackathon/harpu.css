@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:antiquewhite;
+}
+h1{
+
+    padding: 10px;
+    padding-left: 20px;
+    color:black;
+}
+h2{
+    padding: 10px;
+    color:green;
+
+}
+h3{
+    font-size: 20px;
+    color:rgb(36, 37, 37);
+}
+h4{
+    font-size: 20px;
+    color:rgb(40, 41, 42);
+
+}
